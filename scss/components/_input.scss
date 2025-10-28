@@ -1,0 +1,21 @@
+.input {
+  display: block;
+  &__control {
+    padding: 24px 32px;
+    width: 100%;
+    font-size: 13px;
+    line-height: 0.7;
+    border: 1px solid var(--color-secondary-grey);
+    border-radius: 32px;
+    background-color: transparent;
+    &:focus {
+      background-color: var(--color-secondary-grey);
+      outline: none;
+    }
+    &::placeholder {
+      font-size: 13px;
+      line-height: 0.7;
+      color: var(--color-brand-light);
+    }
+  }
+}

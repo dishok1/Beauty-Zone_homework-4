@@ -1,0 +1,12 @@
+.text-brand {
+  color: var(--color-primary-blue);
+  text-transform: capitalize;
+}
+.text-bold {
+  max-width: 500px;
+  text-transform: capitalize;
+}
+.dark {
+  color: var(--color-brand-dark);
+  font-weight: bold;
+}

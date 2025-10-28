@@ -1,0 +1,23 @@
+.button_two {
+  padding: 16px 32px;
+  border-radius: 32px;
+  width: 281px;
+  height: 53px;
+  font-family: "Roboto", sans-serif;
+  color: var(--color-brand-light);
+  background-color: var(--color-primary-blue);
+  cursor: pointer;
+  align-items: center;
+  &:hover {
+    color: black;
+    background-color: transparent;
+  }
+}
+
+/* .button_two:disabled {
+  color: gray;
+  background-color: #747272;
+  /* border-color: currentColor - для наслідування кольору */
+/* cursor: not-allowed; */
+/* значення додаэться до курору щоб зробити його забороненим 
+} */
