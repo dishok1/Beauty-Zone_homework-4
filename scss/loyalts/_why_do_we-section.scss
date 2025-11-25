@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
-  @media screen and (min-width: $bp-mobile) {
+  @media screen and (min-width: $bp-tablet) {
     padding: 176px 0 48px;
     background-image: url(../images/background_image3.svg);
     background-repeat: no-repeat;
@@ -29,7 +29,6 @@
 
   &__choose {
     margin: 0 auto;
-    padding: 24px 21px;
     @media screen and (min-width: $bp-tablet) {
       padding: 24px 32px;
       display: flex;
@@ -51,7 +50,7 @@
     &:hover {
       transform: scale(1.05);
     }
-    @media screen and (min-width: $bp-mobile) {
+    @media screen and (min-width: $bp-tablet) {
       max-width: 400px;
       width: 100%;
       border: 1px solid #d9d9d9;
