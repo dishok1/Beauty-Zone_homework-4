@@ -1,0 +1,14 @@
+.terms {
+  max-width: 210px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--color-secondary-grey);
+
+  &__link {
+    color: var(--color-secondary-grey);
+    text-underline-offset: 2px;
+  }
+}
