@@ -30,7 +30,6 @@
   &__choose {
     margin: 0 auto;
     @media screen and (min-width: $bp-tablet) {
-      padding: 24px 32px;
       display: flex;
       margin: 48px auto 0;
       gap: 56px;
@@ -39,25 +38,20 @@
   }
 
   &__content {
-    max-width: 316px;
-    width: 100%;
+    width: 316px;
     border: 1px solid #d9d9d9;
     background-color: var(--color-brand-light);
     border-radius: 24px;
-    margin: 8px 21px;
     transition: transform 0.3s;
-
+    height: 181px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     &:hover {
       transform: scale(1.05);
     }
-    @media screen and (min-width: $bp-tablet) {
-      max-width: 400px;
-      width: 100%;
-      border: 1px solid #d9d9d9;
-      background-color: var(--color-brand-light);
-      border-radius: 32px;
-      margin-bottom: 8px;
-      transition: transform 0.3s;
-    }
+  }
+  &__img {
+    padding: 24px 32px;
   }
 }
