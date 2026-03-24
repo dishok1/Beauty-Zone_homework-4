@@ -27,9 +27,8 @@
   &__stick {
     display: block;
     margin: 0 auto;
-    padding: 50px 85px 0;
+    padding: 50px 0 0 86px;
     align-items: center;
-    justify-content: center;
     color: var(--color-brand-dark);
     font-family: "Play", sans-serif;
     font-weight: 400;
@@ -37,40 +36,31 @@
 
     @media screen and (min-width: $bp-tablet) {
       display: flex;
+      margin-left: 34px;
       padding: 158px 24px 0;
-      margin: 2px 85px 0;
-      align-items: start;
       justify-content: start;
     }
   }
 
   &__title {
     margin: 4px auto 0;
-    max-width: 319px;
-    height: 46px;
     color: var(--color-primary-blue);
     font-family: "Play", sans-serif;
     text-transform: capitalize;
     font-size: 54px;
     font-weight: 700;
-    line-height: 1%;
-    text-transform: capitalize;
-
+    line-height: 0.85;
+    text-align: center;
     @media screen and (min-width: $bp-tablet) {
       color: var(--color-brand-dark_blue);
-      margin: 16px 0 0 106px;
+      margin: 16px 0 40px 53px;
       font-size: 140px;
-      max-width: 529px;
-      line-height: 81%;
-      padding-bottom: 143px;
+      width: 529px;
+      text-align: start;
     }
   }
   &__button-container {
-    margin-top: 0;
-
-    @media screen and (min-width: $bp-tablet) {
-      padding-top: 40px;
-    }
+    margin-top: 24px;
   }
   &__button {
     display: block;
@@ -85,7 +75,7 @@
     background-color: var(--color-primary-blue);
     cursor: pointer;
     @media screen and (min-width: $bp-tablet) {
-      margin: 40px 0 0 106px;
+      margin: 0 0 14px 50px;
     }
 
     &:hover {
@@ -108,8 +98,9 @@
 
     @media screen and (min-width: $bp-tablet) {
       display: block;
-      margin: 0 auto;
-      padding: 8px 0 0 120px;
+      margin: 0 0 40px 68px;
+      padding: 0;
+
       color: var(--color-secondary-light);
     }
   }

@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
   background-color: rgba(1, 31, 74, 0.4);
+  z-index: 100;
   padding: 20px 20px;
   transition:
     opacity 0.3s,
@@ -39,14 +40,19 @@
     position: absolute;
     background-color: transparent;
     border: none;
-    top: 42px;
-    right: 42px;
+    right: 21px;
+
+    @media screen and (min-width: $bp-tablet) {
+      top: 42px;
+      right: 42px;
+    }
   }
   &__field {
     margin: 24px auto;
+    width: 241px;
   }
   &__title {
-    font-weight: 500;
+    font-weight: 300;
     font-size: 32px;
     text-align: center;
 
@@ -59,12 +65,16 @@
     }
   }
   &__text {
-    line-height: 1.18;
+    font-weight: 300;
     width: 300px;
-    margin: 0 auto 32px auto;
-    font-weight: 600;
-    font-size: 22px;
-    text-align: center;
+    margin-right: 64px;
+    @media screen and (min-width: $bp-tablet) {
+      line-height: 1.18;
+      text-align: center;
+      margin: 0 auto 32px auto;
+      font-weight: 600;
+      font-size: 22px;
+    }
   }
 
   &__button {

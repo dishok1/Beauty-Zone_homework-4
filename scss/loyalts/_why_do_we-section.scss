@@ -1,16 +1,9 @@
 .why_do_we-section {
   display: block;
   padding: 40px 0;
-  background-image: url(../images/background_image3.svg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
   @media screen and (min-width: $bp-tablet) {
     padding: 176px 0 48px;
-    background-image: url(../images/background_image3.svg);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
+    
   }
   &__title {
     font-weight: 500;
