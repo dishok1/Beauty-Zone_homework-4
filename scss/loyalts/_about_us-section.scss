@@ -2,9 +2,9 @@
   &__tipe {
     display: block;
     margin: 0 auto;
-    padding: 23px 0;
+    padding-top: 23px;
     @media screen and (min-width: $bp-tablet) {
-      padding: 58px 0;
+      padding-top: 58px;
       display: flex;
       max-width: 1239px;
       gap: 32px;

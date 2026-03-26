@@ -8,6 +8,7 @@
   background-size: cover;
   background-position: center;
 
+
   @media screen and (min-width: $bp-tablet) {
     text-align: left;
   }
@@ -67,27 +68,36 @@
   &__icons {
     gap: 24px;
     display: flex;
+    padding-top: 16px;
     @media screen and (min-width: $bp-tablet) {
       position: absolute;
-      top: 180px;
-      bottom: 50px;
+      top: 195px;
     }
   }
 
   &__link {
     color: var(--color-brand-light);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: none;
     transition: color 0.3s;
+    padding-bottom: 16px;
+    @media screen and (min-width: $bp-tablet) {
+      font-weight: 400;
+      font-size: 16px;
+    }
+
     &:hover {
       color: var(--color-primary-blue);
       text-decoration: none;
     }
   }
   &__politic {
-    display: none;
+    position: absolute;
+    top: 262px;
+
     @media screen and (min-width: $bp-tablet) {
+      position: initial;
       display: block;
     }
   }
