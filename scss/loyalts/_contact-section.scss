@@ -34,11 +34,12 @@
     height: 232px;
     flex-shrink: 0;
     border-radius: 16px;
-    margin: 0 -21px;
+    margin: 0 -24px;
     border: none;
-    @media screen and (min-width: $bp-desktop) {
+    @media screen and (min-width: $bp-tablet) {
       width: 50%;
       height: 472px;
+      margin: auto;
     }
   }
   &__modal {

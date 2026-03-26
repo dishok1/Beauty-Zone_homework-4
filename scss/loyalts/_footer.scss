@@ -8,9 +8,9 @@
   background-size: cover;
   background-position: center;
 
-
   @media screen and (min-width: $bp-tablet) {
     text-align: left;
+    padding: 56px 0 120px 0;
   }
 
   &::after {
@@ -18,8 +18,8 @@
       position: absolute;
       bottom: 0;
       right: 0;
-      width: 250px;
-      height: 150px;
+      width: 225px;
+      height: 125px;
       background-image: url(../images/liki.png);
       background-repeat: no-repeat;
       content: "";
@@ -27,7 +27,6 @@
   }
   &__ccontainer {
     display: flex;
-    gap: 20px;
     flex-direction: column;
 
     @media screen and (min-width: $bp-tablet) {
@@ -41,11 +40,12 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    gap: 20px;
+    gap: 40px;
 
     @media screen and (min-width: $bp-tablet) {
       flex-basis: 50%;
       flex-direction: row;
+      gap: 20px;
     }
   }
   &__logo {
@@ -68,10 +68,11 @@
   &__icons {
     gap: 24px;
     display: flex;
-    padding-top: 16px;
+    padding-top: 46px;
     @media screen and (min-width: $bp-tablet) {
       position: absolute;
-      top: 195px;
+      top: 178px;
+      padding-top: 16px;
     }
   }
 
@@ -82,9 +83,11 @@
     text-decoration: none;
     transition: color 0.3s;
     padding-bottom: 16px;
+    width: 178px;
     @media screen and (min-width: $bp-tablet) {
       font-weight: 400;
       font-size: 16px;
+      width: 203px;
     }
 
     &:hover {
@@ -94,11 +97,15 @@
   }
   &__politic {
     position: absolute;
-    top: 262px;
+    top: 290px;
+    font-weight: 400;
+    font-size: 14px;
+    width: 178px;
 
     @media screen and (min-width: $bp-tablet) {
       position: initial;
       display: block;
+      width: 203px;
     }
   }
   &__copirght {
